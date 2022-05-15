@@ -1,13 +1,16 @@
 # movieApp
 
 **Used design pattern and App architecture**
+
 I use MVVM architecture with the help of protocol approach 
 
 **Code Structure**
+
 VM have a weak refrence for preventing retain cycle
 This code have all basic utilities for handling data
-
+This app cacheing data onece load from api it will store in cache
 **User guide to use the app**
+
 There is a tab bar which have 3 itmes 
 **  home **
   home screen have all movies list
@@ -16,10 +19,16 @@ There is a tab bar which have 3 itmes
 **favorite**
   this screen have all user favorite movies
   
-**  Search**
+**Search**
   with the help of this screen user can search any movie
 
 **Developer Notes**
+
+This app cacheing data onece load from api it will store in cache
+After killing app cache will load again
+only recent searches will save on local memory
+app have both orientation 
+ 
 
 **Third parties**
 
